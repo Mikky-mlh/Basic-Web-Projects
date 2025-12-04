@@ -4,14 +4,20 @@ Portfolio of responsive web projects built with HTML, CSS, and JavaScript.
 
 ---
 
-## Projects
+## 💻 Projects
 
 ### 1. Survey Form
 Modern survey form with glassmorphism design.
 
-**Tech:** HTML5, CSS3  
-**Features:** Gradient backgrounds, form validation, responsive  
-**Live:** 
+* **Tech Stack:** HTML5, CSS3
+* **Features:** Gradient backgrounds, Form validation, Fully responsive
+
+#### Preview
+
+![Survey Form Demo GIF](https://raw.githubusercontent.com/Mikky-mlh/Basic-Web-Projects/main/Projects/Survey%20Form.gif)
+
+* 🚀 **Live Demo:** 
+* ⚙️ **Source Code:** [View Code](https://github.com/Mikky-mlh/Basic-Web-Projects/tree/main/Projects/Survey%20Form)
 
 ---
 
@@ -25,4 +31,5 @@ Modern survey form with glassmorphism design.
 
 ---
 
-**Contact:** [GitHub](https://github.com/mikky-mlh) | [LinkedIn](https://www.linkedin.com/in/yuvraj-sarathe)
+## 📬 Contact
+Connect with me on: [GitHub](https://github.com/mikky-mlh) | [LinkedIn](https://www.linkedin.com/in/yuvraj-sarathe)
