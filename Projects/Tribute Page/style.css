@@ -69,12 +69,26 @@ p {
     text-align: justify;
 }
 
-#img-div {
+#img-div, .img-div {
     text-align: center;
     margin: 30px 0;
 }
 
-#img-div img {
+#image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+#image:hover {
+    transform: scale(1.05);
+}
+
+.img-div img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
@@ -82,11 +96,11 @@ p {
     transition: transform 0.3s ease;
 }
 
-#img-div img:hover {
+.img-div img:hover {
     transform: scale(1.05);
 }
 
-#img-caption {
+#img-caption, .img-caption {
     font-style: italic;
     color: #666;
     margin-top: 10px;
