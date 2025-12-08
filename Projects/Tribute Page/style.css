@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #333;
+    line-height: 1.6;
+}
+
+#main {
+    background-color: #f4f4f9;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+#title {
+    text-align: center;
+    font-size: 3rem;
+    color: #764ba2;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #667eea;
+    margin: 20px 0;
+    font-size: 2rem;
+}
+
+h3 {
+    text-align: center;
+    color: #764ba2;
+    margin: 30px 0 20px;
+    font-size: 1.8rem;
+    border-bottom: 3px solid #667eea;
+    padding-bottom: 10px;
+}
+
+h4 {
+    text-align: center;
+    color: #667eea;
+    margin: 25px 0 15px;
+    font-size: 1.4rem;
+}
+
+#body {
+    margin-top: 20px;
+}
+
+#intro, #creation, #death {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    margin: 15px 0;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+#img-div {
+    text-align: center;
+    margin: 30px 0;
+}
+
+#img-div img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+#img-div img:hover {
+    transform: scale(1.05);
+}
+
+#img-caption {
+    font-style: italic;
+    color: #666;
+    margin-top: 10px;
+    font-size: 0.95rem;
+}
+
+.highlight {
+    background: linear-gradient(120deg, #ffd89b 0%, #19547b 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    padding: 0 2px;
+}
+
+a {
+    color: #667eea;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #764ba2;
+    text-decoration: underline;
+}
+
+a.highlight {
+    background: linear-gradient(120deg, #667eea 0%, #764ba2 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+a.highlight:hover {
+    background: linear-gradient(120deg, #764ba2 0%, #667eea 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+@media (max-width: 768px) {
+    #main {
+        padding: 20px;
+        margin: 10px;
+    }
+    
+    #title {
+        font-size: 2rem;
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+    }
+    
+    p {
+        font-size: 1rem;
+    }
+}
