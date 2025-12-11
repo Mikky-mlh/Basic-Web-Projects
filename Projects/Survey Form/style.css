@@ -124,14 +124,27 @@ footer {
     font-size: 14px;
 }
 
-footer a {
-    color: #f5f6f7;
-    text-decoration: none;
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
 }
 
-footer a:hover {
-    color: #ffffff;
-    text-decoration: underline;
+.social-btn {
+    padding: 10px 20px;
+    background: rgba(255,255,255,0.2);
+    color: #f5f6f7;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 1px solid rgba(255,255,255,0.3);
+    transition: all 0.3s ease;
+}
+
+.social-btn:hover {
+    background: rgba(255,255,255,0.3);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 
 ::placeholder {
