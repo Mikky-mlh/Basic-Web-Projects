@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuvraj Sarathe | Developer Documentation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header>Yuvraj's Docs</header>
+        <ul>
+            <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+            <li><a class="nav-link" href="#Web_Development">Web Development</a></li>
+            <li><a class="nav-link" href="#Java_Development">Java Development</a></li>
+            <li><a class="nav-link" href="#Python_Projects">Python Projects</a></li>
+            <li><a class="nav-link" href="#C++_Programming">C++ Programming</a></li>
+            <li><a class="nav-link" href="#Skills_&_Tech_Stack">Skills & Tech Stack</a></li>
+            <li><a class="nav-link" href="#Connect_With_Me">Connect With Me</a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <article>
+                <p>
+                    Hello, I'm <strong>Yuvraj Sarathe</strong> (Mikky-mlh). I am a Cyber Security student at LNCT, Bhopal, and an enthusiast in AI/ML and ethical hacking.
+                </p>
+                <p>
+                    This documentation serves as a technical portfolio of my journey through Full Stack Development and Systems Programming. My focus is on writing clean, accessible code and building logical game systems.
+                </p>
+                <ul>
+                    <li><strong>Languages:</strong> Java, Python, C++, HTML/CSS</li>
+                    <li><strong>Focus:</strong> Cyber Security, Game Logic, Web Design, DSA</li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="main-section" id="Web_Development">
+            <header>Web Development</header>
+            <article>
+                <p>My web development journey focuses on semantic HTML5 and modern CSS3, emphasizing responsive design and modern aesthetics. All projects are part of my freeCodeCamp Responsive Web Design certification path.</p>
+                
+                <div class="project-showcase">
+                    <h3>🎨 Survey Form</h3>
+                    <p><strong>Status:</strong> ✅ Completed & Deployed (Nov 29, 2025)</p>
+                    <p>A modern, responsive survey form featuring glassmorphism design with beautiful gradient backgrounds and smooth animations.</p>
+                    <p><strong>Key Features:</strong></p>
+                    <ul>
+                        <li>Glassmorphism UI with backdrop blur effects</li>
+                        <li>Beautiful gradient backgrounds (purple to pink spectrum)</li>
+                        <li>HTML5 form validation with visual feedback</li>
+                        <li>Custom styled form elements with smooth transitions</li>
+                        <li>Mobile-first responsive design</li>
+                    </ul>
+                    <p><strong>Live Demo:</strong> <a href="https://mikky-mlh.github.io/Basic-Web-Projects/Projects/Survey%20Form/" target="_blank">View Project</a></p>
+                </div>
+
+                <div class="project-showcase">
+                    <h3>📖 Tribute Page - Terry A. Davis</h3>
+                    <p><strong>Status:</strong> ✅ Completed & Deployed (Dec 8, 2025)</p>
+                    <p>A comprehensive tribute honoring Terry A. Davis, the brilliant programmer who single-handedly created HolyC, TempleOS, its compiler, kernel, and bootloader.</p>
+                    <p><strong>Key Features:</strong></p>
+                    <ul>
+                        <li>Responsive timeline design using modern CSS</li>
+                        <li>Professional typography and spacing</li>
+                        <li>Gradient text effects and smooth hover transitions</li>
+                        <li>Multiple images with zoom effects</li>
+                        <li>Semantic HTML5 structure for accessibility</li>
+                    </ul>
+                    <p><strong>Live Demo:</strong> <a href="https://mikky-mlh.github.io/Basic-Web-Projects/Projects/Tribute%20Page/" target="_blank">View Project</a></p>
+                </div>
+
+                <div class="project-showcase">
+                    <h3>📚 Technical Documentation Page</h3>
+                    <p><strong>Status:</strong> 🚧 In Progress</p>
+                    <p>This very page you're reading! A comprehensive developer documentation showcasing my technical portfolio with modern design principles.</p>
+                </div>
+
+                <p><strong>Portfolio Site:</strong> <a href="https://mikky-mlh.github.io/Basic-Web-Projects/" target="_blank">https://mikky-mlh.github.io/Basic-Web-Projects/</a></p>
+
+                <h3>CSS Techniques Mastered</h3>
+                <code>/* Glassmorphism Effect */
+.card {
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 10px;
+}
+
+/* Gradient Text */
+.highlight {
+    background: linear-gradient(120deg, #ffd89b 0%, #19547b 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}</code>
+            </article>
+        </section>
+
+        <section class="main-section" id="Java_Development">
+            <header>Java Development</header>
+            <article>
+                <p>I focus on object-oriented programming and console-based interactivity in Java, creating engaging terminal applications with advanced features.</p>
+                
+                <div class="project-showcase">
+                    <h3>🎮 Hangman in Java</h3>
+                    <p>A feature-complete console game that stands out from standard text games by utilizing <strong>ANSI escape codes</strong> to render colored text and ASCII graphics directly in the terminal.</p>
+                    
+                    <p><strong>Technical Highlights:</strong></p>
+                    <ul>
+                        <li><strong>Zero Dependencies:</strong> Runs on standard JDK 14+ with no external libraries</li>
+                        <li><strong>ANSI Color Support:</strong> Dynamic colored output for enhanced user experience</li>
+                        <li><strong>ASCII Art:</strong> Progressive hangman drawing with each incorrect guess</li>
+                        <li><strong>2000+ Word Database:</strong> Built-in word list for varied gameplay</li>
+                        <li><strong>Resource Management:</strong> Efficient file reading using InputStream</li>
+                        <li><strong>Windows Executable:</strong> Packaged with jpackage for no-dependency distribution</li>
+                    </ul>
+
+                    <p><strong>Build System:</strong></p>
+                    <ul>
+                        <li>Custom <code>build.bat</code> script for automated compilation</li>
+                        <li>JAR packaging with embedded resources</li>
+                        <li>jpackage integration for native Windows executable</li>
+                    </ul>
+
+                    <p><strong>Game Features:</strong></p>
+                    <ul>
+                        <li>Color-coded feedback (Green for correct, Red for incorrect)</li>
+                        <li>Used letters tracking to prevent duplicate guesses</li>
+                        <li>Centered text display for professional appearance</li>
+                        <li>Play again functionality for continuous gameplay</li>
+                    </ul>
+
+                    <p><strong>Repository:</strong> <a href="https://github.com/Mikky-mlh/Hangman-in-Java" target="_blank">View on GitHub</a></p>
+                </div>
+
+                <h3>Code Architecture</h3>
+                <code>// Console Color Implementation
+public class Hangman {
+    // ANSI Color Codes
+    public static final String RED = "\u001B[31m";
+    public static final String GREEN = "\u001B[32m";
+    public static final String YELLOW = "\u001B[33m";
+    public static final String CYAN = "\u001B[36m";
+    public static final String RESET = "\u001B[0m";
+    
+    // Nested class for word management
+    public static class WordReader {
+        public static String getRandomWordFromFile(String filename) 
+            throws IOException {
+            // Resource loading from JAR
+            try (InputStream is = 
+                Hangman.class.getResourceAsStream("/" + filename)) {
+                // Stream processing for efficiency
+            }
+        }
+    }
+}</code>
+            </article>
+        </section>
+
+        <section class="main-section" id="Python_Projects">
+            <header>Python Projects</header>
+            <article>
+                <p>Python is my go-to language for logic puzzles, game development, and rapid application development. I leverage libraries like Pygame, NumPy, and Tkinter for interactive applications.</p>
+
+                <div class="project-showcase">
+                    <h3>🔴 Connect4 Game</h3>
+                    <p>A fully-featured graphical implementation of the classic Connect 4 board game using <strong>Pygame</strong> and <strong>NumPy</strong> for efficient matrix operations.</p>
+                    
+                    <p><strong>Technical Implementation:</strong></p>
+                    <ul>
+                        <li><strong>NumPy Arrays:</strong> Efficient 6x7 matrix representation for game board</li>
+                        <li><strong>Pygame Graphics:</strong> Real-time rendering with smooth animations</li>
+                        <li><strong>Dynamic Sizing:</strong> Automatically adapts to screen resolution</li>
+                        <li><strong>Player Name Input:</strong> Custom keyboard input system for personalization</li>
+                        <li><strong>Win Detection:</strong> Optimized algorithm checking all 4 directions (horizontal, vertical, both diagonals)</li>
+                        <li><strong>Draw Detection:</strong> Automatic tie game recognition when board is full</li>
+                    </ul>
+
+                    <p><strong>Game Features:</strong></p>
+                    <ul>
+                        <li>Two-player mode with custom names</li>
+                        <li>Hovering piece preview before placement</li>
+                        <li>Color-coded players (Red vs Yellow)</li>
+                        <li>Restart functionality with green button</li>
+                        <li>Winner announcement with player name</li>
+                    </ul>
+
+                    <p><strong>Repository:</strong> <a href="https://github.com/Mikky-mlh/Connect4-in-Python" target="_blank">View on GitHub</a></p>
+                </div>
+
+                <div class="project-showcase">
+                    <h3>🎲 Guess The Number Game</h3>
+                    <p>My first mini-project utilizing <strong>Tkinter</strong> for a Graphical User Interface, marking my transition from command-line to GUI applications.</p>
+                    
+                    <p><strong>Features:</strong></p>
+                    <ul>
+                        <li><strong>Tkinter GUI:</strong> Clean, modern interface with custom styling</li>
+                        <li><strong>Input Validation:</strong> Handles invalid inputs gracefully</li>
+                        <li><strong>Smart Feedback:</strong> Color-coded hints (Too high/low in orange, success in green)</li>
+                        <li><strong>Guess Counter:</strong> Tracks number of attempts</li>
+                        <li><strong>Play Again:</strong> Restart button appears after winning</li>
+                        <li><strong>Range Validation:</strong> Ensures guesses are between 1-100</li>
+                    </ul>
+
+                    <p><strong>Repository:</strong> <a href="https://github.com/Mikky-mlh/GuessTheNumberGame" target="_blank">View on GitHub</a></p>
+                </div>
+
+                <h3>Algorithm Example: Connect4 Win Detection</h3>
+                <code># Optimized win detection using direction vectors
+def winning_move(board, piece):
+    # Check all possible winning locations
+    # Directions: horizontal, vertical, positive diagonal, negative diagonal
+    directions = [(0, 1), (1, 0), (1, 1), (1, -1)]
+    
+    for r_start in range(ROW_COUNT):
+        for c_start in range(COLUMN_COUNT):
+            for dr, dc in directions:
+                # Check if 4 consecutive pieces exist
+                if 0 <= r_start + 3*dr < ROW_COUNT and \
+                   0 <= c_start + 3*dc < COLUMN_COUNT:
+                    if all(board[r_start + i*dr][c_start + i*dc] == piece 
+                           for i in range(4)):
+                        return True
+    return False</code>
+            </article>
+        </section>
+
+        <section class="main-section" id="C++_Programming">
+            <header>C++ Programming</header>
+            <article>
+                <p>I use C++ to understand low-level memory management, game logic loops, and systems programming. My focus is on creating engaging console applications with advanced terminal features.</p>
+                
+                <div class="project-showcase">
+                    <h3>❌⭕ Tic-Tac-Toe in C++</h3>
+                    <p>A console-based implementation of Tic-Tac-Toe featuring Windows console color manipulation and clean game architecture.</p>
+                    
+                    <p><strong>Technical Features:</strong></p>
+                    <ul>
+                        <li><strong>Windows Console API:</strong> Uses <code>windows.h</code> for color manipulation</li>
+                        <li><strong>SetConsoleTextAttribute:</strong> Dynamic color changes for enhanced UX</li>
+                        <li><strong>Screen Management:</strong> Clear screen functionality for clean display</li>
+                        <li><strong>Color-Coded Gameplay:</strong> Green for player X, Red for computer O</li>
+                        <li><strong>Smart AI:</strong> Random computer moves with validation</li>
+                        <li><strong>Input Validation:</strong> Prevents invalid moves and occupied spaces</li>
+                    </ul>
+
+                    <p><strong>Game Features:</strong></p>
+                    <ul>
+                        <li>Player vs Computer gameplay</li>
+                        <li>Visual 3x3 grid with position numbers</li>
+                        <li>Win detection for all 8 possible winning combinations</li>
+                        <li>Tie game detection</li>
+                        <li>Play again functionality</li>
+                        <li>Color-coded win/lose messages</li>
+                    </ul>
+
+                    <p><strong>Code Structure:</strong></p>
+                    <ul>
+                        <li><code>drawBoard()</code> - Renders the game grid with colors</li>
+                        <li><code>playerMove()</code> - Handles user input with validation</li>
+                        <li><code>computerMove()</code> - AI opponent logic</li>
+                        <li><code>checkWinner()</code> - Evaluates all win conditions</li>
+                        <li><code>checkTie()</code> - Detects draw scenarios</li>
+                    </ul>
+
+                    <p><strong>Repository:</strong> <a href="https://github.com/Mikky-mlh/Tic-Tac-Toe-in-CPP" target="_blank">View on GitHub</a></p>
+                </div>
+
+                <h3>Game Architecture</h3>
+                <code>// Main Game Loop with Color Support
+#include <windows.h>
+
+void setColor(int color) {
+    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), color);
+}
+
+int main() {
+    char playAgain;
+    srand(time(0));
+    
+    do {
+        char spaces[9] = {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '};
+        char player = 'X';
+        char computer = 'O';
+        bool running = true;
+        
+        while(running) {
+            playerMove(spaces, player);
+            drawBoard(spaces);
+            if(checkWinner(spaces, player, computer)) {
+                running = false;
+            }
+            
+            computerMove(spaces, computer);
+            drawBoard(spaces);
+            if(checkWinner(spaces, player, computer)) {
+                running = false;
+            }
+        }
+        
+        cout << "Play again? (Y/N): ";
+        cin >> playAgain;
+    } while(playAgain == 'Y' || playAgain == 'y');
+    
+    return 0;
+}</code>
+            </article>
+        </section>
+
+        <section class="main-section" id="Skills_&_Tech_Stack">
+            <header>Skills & Tech Stack</header>
+            <article>
+                <h3>Programming Languages</h3>
+                <div class="skills-grid">
+                    <div class="skill-badge">Java</div>
+                    <div class="skill-badge">Python</div>
+                    <div class="skill-badge">C++</div>
+                    <div class="skill-badge">HTML5</div>
+                    <div class="skill-badge">CSS3</div>
+                    <div class="skill-badge">JavaScript</div>
+                </div>
+
+                <h3>Frameworks & Libraries</h3>
+                <div class="skills-grid">
+                    <div class="skill-badge">Pygame</div>
+                    <div class="skill-badge">NumPy</div>
+                    <div class="skill-badge">Tkinter</div>
+                </div>
+
+                <h3>Tools & Technologies</h3>
+                <div class="skills-grid">
+                    <div class="skill-badge">Git & GitHub</div>
+                    <div class="skill-badge">GitHub Pages</div>
+                    <div class="skill-badge">JDK 14+</div>
+                    <div class="skill-badge">jpackage</div>
+                    <div class="skill-badge">Windows API</div>
+                </div>
+
+                <h3>Core Competencies</h3>
+                <ul>
+                    <li><strong>Web Development:</strong> Responsive design, Glassmorphism, CSS animations, Semantic HTML</li>
+                    <li><strong>Game Development:</strong> Logic systems, Win detection algorithms, GUI design</li>
+                    <li><strong>Systems Programming:</strong> Memory management, Console applications, ANSI codes</li>
+                    <li><strong>Software Engineering:</strong> OOP, Clean code, Version control, Documentation</li>
+                    <li><strong>Cyber Security:</strong> Security best practices, Ethical hacking concepts</li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="main-section" id="Connect_With_Me">
+            <header>Connect With Me</header>
+            <article>
+                <p>Let's connect! Find my work, contributions, and professional profiles across these platforms:</p>
+                
+                <div class="connect-buttons">
+                    <a href="https://github.com/Mikky-mlh" target="_blank" class="connect-btn github-btn">
+                        <span class="btn-icon">👾</span>
+                        <div class="btn-content">
+                            <span class="btn-title">GitHub</span>
+                            <span class="btn-subtitle">@Mikky-mlh</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.linkedin.com/in/yuvraj-sarathe" target="_blank" class="connect-btn linkedin-btn">
+                        <span class="btn-icon">💼</span>
+                        <div class="btn-content">
+                            <span class="btn-title">LinkedIn</span>
+                            <span class="btn-subtitle">Yuvraj Sarathe</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://leetcode.com/u/Mikky_mlh/" target="_blank" class="connect-btn leetcode-btn">
+                        <span class="btn-icon">💻</span>
+                        <div class="btn-content">
+                            <span class="btn-title">LeetCode</span>
+                            <span class="btn-subtitle">@Mikky_mlh</span>
+                        </div>
+                    </a>
+                    
+                    <a href="https://mikky-mlh.github.io/Basic-Web-Projects/" target="_blank" class="connect-btn portfolio-btn">
+                        <span class="btn-icon">🌐</span>
+                        <div class="btn-content">
+                            <span class="btn-title">Portfolio</span>
+                            <span class="btn-subtitle">Web Projects</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="contact-info">
+                    <h3>About Me</h3>
+                    <p><strong>Education:</strong> Cyber Security Student at LNCT, Bhopal</p>
+                    <p><strong>Interests:</strong> AI/ML, Ethical Hacking, Full Stack Development</p>
+                    <p><strong>Currently Learning:</strong> JavaScript, Data Structures & Algorithms, Backend Development</p>
+                    <p><strong>Goal:</strong> Building towards a career in software engineering with expertise in full-stack development, cloud technologies, and system design.</p>
+                </div>
+            </article>
+        </section>
+
+    </main>
+</body>
+</html>
