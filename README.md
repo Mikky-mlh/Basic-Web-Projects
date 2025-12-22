@@ -1,155 +1,96 @@
-# Web Development Projects
+# 🌐 Web Development Projects
 
-Portfolio of responsive web projects built with HTML, CSS, and JavaScript, showcasing modern design principles and clean code.
+> **A curated collection of responsive web projects focusing on modern UI/UX, clean architecture, and semantic code.**
 
-**Live Portfolio:** https://mikky-mlh.github.io/Basic-Web-Projects/
+[![Live Portfolio](https://img.shields.io/badge/Live-Portfolio-brightgreen?style=for-the-badge&logo=github)](https://mikky-mlh.github.io/Basic-Web-Projects/)
+[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](./LICENSE)
+
+---
+
+## 🛠 Tech Stack & Skills
+
+| Category | Technologies |
+| :--- | :--- |
+| **Frontend** | `HTML5`, `CSS3`, `JavaScript (Learning)` |
+| **Styling** | `Flexbox`, `CSS Grid`, `Animations`, `Glassmorphism` |
+| **Workflow** | `Git`, `GitHub Pages`, `Mobile-First Design` |
+| **Principles** | `Accessibility (A11y)`, `Semantic HTML`, `Clean Code` |
 
 ---
 
 ## 🚀 Deployed Projects
 
 ### 0. Technical Documentation Page ✅
-A comprehensive technical documentation page serving as a complete portfolio showcase, demonstrating advanced CSS layouts, fixed navigation, and professional presentation of technical work.
+A comprehensive documentation site serving as a master portfolio showcase.
 
-**Technologies:** HTML5, CSS3  
-**Features:**
-- Fixed sidebar navigation with smooth scroll behavior
-- Responsive design supporting mobile/tablet layouts
-- Modern CSS: Custom gradients, box-shadows, pseudo-elements
-- Custom code blocks with syntax styling
-- Complex grid layouts for skills and connect buttons
-- Project showcase components with hover effects and animations
-- Multi-section portfolio (Web Dev, Java, Python, C++, Skills)
-
-**🔗 Live Demo:** https://mikky-mlh.github.io/Basic-Web-Projects/Projects/Documentation%20Project/
-**📁 Source Code:** [View Code](./Projects/Documentation%20Project/)
-
----
+* **Links:** [**Live Demo**](https://mikky-mlh.github.io/Basic-Web-Projects/Projects/Documentation%20Project/) | [Source Code](./Projects/Documentation%20Project/)
+* **Key Features:** Fixed sidebar navigation, smooth scroll, custom code syntax styling, and complex grid layouts.
 
 ### 1. Survey Form ✅
-Modern survey form featuring glassmorphism design with gradient backgrounds and smooth animations.
+Modern UI featuring glassmorphism and smooth form transitions.
 
-**Technologies:** HTML5, CSS3  
-**Features:**
-- Glassmorphism UI with backdrop blur effects
-- Responsive design (mobile-first approach)
-- Custom styled form elements with smooth transitions
-- HTML5 form validation
-- Professional gradient backgrounds
-
-**🔗 Live Demo:** https://mikky-mlh.github.io/Basic-Web-Projects/Projects/Survey%20Form/
-**📁 Source Code:** [View Code](./Projects/Survey%20Form/)
-
----
+* **Links:** [**Live Demo**](https://mikky-mlh.github.io/Basic-Web-Projects/Projects/Survey%20Form/) | [Source Code](./Projects/Survey%20Form/)
+* **Key Features:** Backdrop blur effects, professional gradient backgrounds, and full HTML5 validation.
 
 ### 2. Tribute Page ✅
-A comprehensive tribute to Terry A. Davis, exploring his creation of HolyC, TempleOS, and his remarkable journey as a programmer.
+A responsive timeline exploring the life of Terry A. Davis.
 
-**Technologies:** HTML5, CSS3  
-**Features:**
-- Responsive timeline design using modern CSS
-- Professional typography and spacing
-- Gradient text effects and smooth hover transitions
-- Mobile-first responsive design
-- Semantic HTML5 structure
+* **Links:** [**Live Demo**](https://mikky-mlh.github.io/Basic-Web-Projects/Projects/Tribute%20Page/) | [Source Code](./Projects/Tribute%20Page/)
+* **Key Features:** Semantic HTML5 structure, typography-focused design, and gradient text effects.
 
-**🔗 Live Demo:** https://mikky-mlh.github.io/Basic-Web-Projects/Projects/Tribute%20Page/
-**📁 Source Code:** [View Code](./Projects/Tribute%20Page/)
+### 📅 Upcoming Projects
+* **3. Product Landing Page** ⏳ (*In Progress*)
+* **4. Personal Portfolio Webpage** ⏳ (*Planned*)
 
 ---
 
-### 3. Product Landing Page ⏳
-*Coming soon*
+## 📈 Learning Journey & Metrics
 
----
+### **Progress Tracker**
+**Certification:** freeCodeCamp Responsive Web Design  
+![Progress](https://geps.dev/progress/60)
 
-### 4. Personal Portfolio Webpage ⏳
-*Coming soon*
+* **Project Completion:** 3 / 5
+* **Total Codebase:** 1,000+ hand-crafted lines
+* **Current Goal:** Mastering JavaScript & DSA
 
----
-
-## 💻 Skills Demonstrated
-
-- **HTML5:** Semantic structure, forms, accessibility, proper document architecture, navigation systems
-- **CSS3:** Flexbox, Grid, animations, gradients, glassmorphism effects, responsive design, fixed positioning
-- **Responsive Design:** Mobile-first approach, media queries, fluid layouts, breakpoint management
-- **UI/UX:** Modern design principles, user experience focus, visual hierarchy, interactive elements
-- **Code Quality:** Clean, organized, well-structured, maintainable code with proper documentation
-- **Version Control:** Git workflow, meaningful commits, proper project organization
-- **Deployment:** GitHub Pages hosting, live production sites with professional presentation
-
----
-
-## 🎯 About This Portfolio
-
-These projects are part of my systematic journey in full-stack web development, focusing on building strong fundamentals before advancing to JavaScript, backend technologies, and modern frameworks.
-
-Each project demonstrates increasing complexity and mastery of web technologies, with emphasis on:
-- Professional-quality code
-- Modern design trends
-- Responsive, accessible interfaces
-- Real-world deployment experience
-- Portfolio-grade presentation
-
-**Development Timeline:**
-- **November 20, 2025:** Started learning journey
-- **November 29, 2025:** Survey Form completed
-- **December 8, 2025:** Tribute Page completed
-- **December 9, 2025:** First two projects deployed
-- **December 15, 2025:** Technical Documentation completed & deployed
-
-**Currently Learning:** JavaScript, Data Structures & Algorithms, Backend Development
-
-**Goal:** Building towards a career in software engineering with expertise in full-stack development, cloud technologies, and system design.
+### **Timeline**
+* **Nov 20, 2025:** 🏁 Journey Started
+* **Nov 29, 2025:** 📝 Survey Form Completed
+* **Dec 15, 2025:** 📚 Documentation Site Deployed
 
 ---
 
 ## 📂 Repository Structure
-```
+
+
+
+```bash
 Basic-Web-Projects/
-├── index.html              # Main portfolio landing page
-├── style-main.css          # Portfolio page styling
-├── Projects/
+├── index.html             # Main Portfolio Landing
+├── style-main.css         # Core Portfolio Styling
+├── Projects/              # Individual Projects
 │   ├── Documentation Project/
-│   │   ├── index.html
-│   │   └── style.css
 │   ├── Survey Form/
-│   │   ├── index.html
-│   │   └── style.css
-│   ├── Tribute Page/
-│   │   ├── index.html
-│   │   └── style.css
-│   └── README.md          # Detailed project documentation
-└── README.md              # This file
+│   └── Tribute Page/
+└── README.md              # Documentation
 ```
 
----
+## 🤝 Connect With Me
 
-## 📊 Progress Metrics
-
-**Projects Completed:** 3 / 5 (freeCodeCamp certification projects)  
-**Modules Completed:** 11+ freeCodeCamp lessons  
-**Lines of Code:** 1000+ (HTML/CSS combined)  
-**Deployment Status:** All completed projects live on GitHub Pages  
-**Code Quality:** Portfolio-grade with professional standards
-
----
-
-## 🔗 Connect
-
-- **Portfolio:** https://mikky-mlh.github.io/Basic-Web-Projects/
-- **GitHub:** [@Mikky-mlh](https://github.com/mikky-mlh)
-- **LinkedIn:** [Yuvraj Sarathe](https://www.linkedin.com/in/yuvraj-sarathe)
-- **LeetCode:** [@Mikky_mlh](https://leetcode.com/u/Mikky_mlh/)
+<p align="left">
+  <a href="https://github.com/mikky-mlh">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/yuvraj-sarathe">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://leetcode.com/u/Mikky_mlh/">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" />
+  </a>
+</p>
 
 ---
 
-## 📜 License
-
-These projects are created for educational and portfolio purposes.
-
----
-
-*More projects coming soon as I continue building and learning.*
-
-**Last Updated:** December 15, 2025
+> _"Building the web, one div at a time."_  
+> **Last Updated:** December 15, 2025
