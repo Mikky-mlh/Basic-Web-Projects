@@ -74,7 +74,7 @@ This repository serves as my practical learning journey through **freeCodeCamp's
 ### 📚 Technical Documentation Page
 A comprehensive documentation site with advanced navigation and layout features.
 
-**🔗 Links:** [Live Demo](https://mikky-mlh.github.io/Basic-Web-Projects/Projects/Documentation%20Project/) • [Source Code](./Projects/Documentation%20Project/)
+**🔗 Links:** [Live Demo](https://mikky-mlh.github.io/Web-Projects/Projects/Documentation%20Project/) • [Source Code](./Projects/Documentation%20Project/)
 
 **✨ Highlights:**
 - Fixed sidebar with smooth scroll behavior
@@ -90,7 +90,7 @@ A comprehensive documentation site with advanced navigation and layout features.
 ### 📝 Survey Form
 Modern glassmorphism UI with smooth transitions and professional aesthetics.
 
-**🔗 Links:** [Live Demo](https://mikky-mlh.github.io/Basic-Web-Projects/Projects/Survey%20Form/) • [Source Code](./Projects/Survey%20Form/)
+**🔗 Links:** [Live Demo](https://mikky-mlh.github.io/Web-Projects/Projects/Survey%20Form/) • [Source Code](./Projects/Survey%20Form/)
 
 **✨ Highlights:**
 - Backdrop blur effects
@@ -108,7 +108,7 @@ Modern glassmorphism UI with smooth transitions and professional aesthetics.
 ### 🏛 Tribute Page
 A responsive biographical timeline exploring the life of Terry A. Davis.
 
-**🔗 Links:** [Live Demo](https://mikky-mlh.github.io/Basic-Web-Projects/Projects/Tribute%20Page/) • [Source Code](./Projects/Tribute%20Page/)
+**🔗 Links:** [Live Demo](https://mikky-mlh.github.io/Web-Projects/Projects/Tribute%20Page/) • [Source Code](./Projects/Tribute%20Page/)
 
 **✨ Highlights:**
 - Typography-focused design
@@ -169,7 +169,7 @@ A responsive biographical timeline exploring the life of Terry A. Davis.
 ## 📂 Project Structure
 
 ```bash
-Basic-Web-Projects/
+Web-Projects/
 │
 ├── 📄 index.html                    # Main portfolio landing page
 ├── 🎨 style-main.css                # Core portfolio styling
@@ -203,10 +203,10 @@ Simply click on any **Live Demo** link above to view the deployed projects on Gi
 
 ```bash
 # Clone the repository
-git clone https://github.com/mikky-mlh/Basic-Web-Projects.git
+git clone https://github.com/mikky-mlh/Web-Projects.git
 
 # Navigate to project directory
-cd Basic-Web-Projects
+cd Web-Projects
 
 # Open in browser (or use Live Server in VS Code)
 open index.html
