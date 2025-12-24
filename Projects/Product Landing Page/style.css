@@ -248,6 +248,7 @@ body {
     font-size: 3rem;
     margin-bottom: 25px;
     background: linear-gradient(135deg, var(--primary-cyan), var(--primary-purple));
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
