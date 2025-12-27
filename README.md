@@ -473,23 +473,37 @@ git push origin main
 
 ### 💬 Open to Collaboration
 
-**Looking for:**
-- Code reviews and technical feedback
-- Project collaboration opportunities
-- Learning resources and recommendations
-- Mentorship and guidance
+**Interested in:**
+ <br>
+ <br>
+ Code reviews and technical feedback
+ <br>
+ <br>
+ Project collaboration opportunities
+ <br>
+ <br>
+ Learning resources and best practices
+ <br>
+ <br>
+ Mentorship and guidance
+ <br>
+ <br>
 
 **Not interested in:**
-- Tutorial-quality placeholder projects
-- "Just add it to your resume" advice
-- Quick fixes or shortcuts
-- Quantity over quality approaches
-
-</div>
-
----
-
-<div align="center">
+<br>
+<br>
+ Tutorial-quality code suggestions
+<br>
+<br>
+ Shortcuts or quick fixes
+<br>
+<br>
+ "Just add it to resume" advice
+<br>
+<br>
+ Quantity over quality approaches
+<br>
+<br>
 
 ### 💻 "I don't just write code—I ship production-ready software."
 
@@ -498,5 +512,7 @@ git push origin main
 ⭐ **Star this repo if you appreciate quality over quantity**
 
 *Last Updated: December 2025*
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,12,20&height=120&section=footer" />
 
 </div>
