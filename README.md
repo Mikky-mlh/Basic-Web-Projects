@@ -60,6 +60,16 @@ A curated collection of **portfolio-grade web applications**. Each project solve
 
 ---
 
+## ⚡ Current Status & Roadmap
+
+| Feature | Status | Description |
+| :--- | :--- | :--- |
+| **Responsive Design** | 🟢 Complete | All sites verified on Mobile/Tablet/Desktop |
+| **Vanilla JavaScript** | 🟡 In Progress | Refactoring older projects for deep interactivity |
+| **Backend Integration** | 🔴 Planned | Moving from FormSubmit.co to Node.js/Express |
+
+---
+
 ## 📬 Connect & Explore
 
 <div align="center">
